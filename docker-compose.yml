@@ -1,0 +1,9 @@
+version: '3'
+services:
+    app:
+        build: .
+        image: sit323/node-web-app
+        restart: always
+        ports:
+            - 40000:3040
+        command: node app4.js

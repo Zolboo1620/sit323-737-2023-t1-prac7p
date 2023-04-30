@@ -1,0 +1,12 @@
+{
+  "name": "docker-web-app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "w2.js",
+  "scripts": {
+    "start": "node w2.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
